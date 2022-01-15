@@ -6,6 +6,8 @@ Developers ask questions on Stack Overflow but it's not easy to get a picture of
 
 Superflow is a dashboard for maintainers, developer advocates and community managers to see how "healthy" their projects are on Stack Overflow by analyzing a given tag.
 
+## User Stories
+
 As a user:
 
 * I want to follow multiple tags on Stack Overflow through a website
