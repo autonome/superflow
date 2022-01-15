@@ -2,7 +2,7 @@
 
 Stack Overflow tag dashboard and scorecard for open source projects.
 
-Developers ask questions on Stack Overflow but it's not easy to get a picture of how well they're being served.
+Developers ask questions on Stack Overflow but it's not easy to get a picture of how well they're being served for a given project.
 
 Superflow is a dashboard for maintainers, developer advocates and community managers to see how "healthy" their projects are on Stack Overflow by analyzing a given tag.
 
