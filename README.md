@@ -34,3 +34,16 @@ For each tag, I want to see metrics that tell me the overall health of the tag:
 * No login required, unless StackOverflow oauth login to get API access
 * All application state to be stored client-side instead of on a server-side database
 * All API calls either run client side if possible, or through a proxy API
+
+
+## Running locally
+In order to run Superflow locally, please follow the instructions :
+
+- Clone the repository into your local system.
+  ```git clone https://github.com/autonome/superflow.git```
+
+- Install all the required dependencies by running the below command,
+  ```npm install```
+  
+- Start the local development server,
+  ```npm start```
