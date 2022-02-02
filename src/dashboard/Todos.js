@@ -109,13 +109,13 @@ export default function Todos(props) {
                 >
                   <div className="flex justify-between">
                     <div className=" sm:pr-8 flex-col">
-                      <p className="mt-2 text-sm desc text-orange-300">
+                      <p className="mt-2 text-sm desc text-gray-300">
                         {question.title}
                       </p>
                     </div>
                     {type === "unanswered" && (
                       <div className=" sm:pr-8 flex-col">
-                        <p className="mt-2 text-sm desc text-gray-300">
+                        <p className="mt-2 text-sm desc text-[#c415c4]">
                           Answer count: {question.answer_count}
                         </p>
                       </div>
@@ -126,7 +126,7 @@ export default function Todos(props) {
                     <div className=" sm:pr-8 flex-col">
                       <a
                         href={question.owner.link}
-                        className="mt-2 text-sm desc text-gray-300"
+                        className="mt-2 text-sm desc text-[#c415c4]"
                       >
                         by Author: {question.owner.display_name}
                       </a>
@@ -177,7 +177,7 @@ export default function Todos(props) {
     </div>
   ) : (
     <div className="desc text-gray-300 flex justify-center mt-60">
-    You have not added any tag yet
-  </div>
+      You have not added any tag yet
+    </div>
   );
 }

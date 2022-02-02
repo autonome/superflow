@@ -53,7 +53,7 @@ export default function Settings(props) {
     <div className="flex flex-col">
       <div className="flex justify-between">
         <div>
-          <h1 className="heading text-orange-300 text-xl mt-12">Tags</h1>
+          <h1 className="heading text-[#c415c4] text-xl mt-12">Tags</h1>
         </div>
       </div>
 
@@ -95,18 +95,18 @@ export default function Settings(props) {
       <div className="mt-10">
         <input
           type="text"
-          className="glass p-3 accent-orange-300 text-gray-300"
+          className="glass p-3 accent-[#c415c4] text-gray-300"
           placeholder="Enter tag"
           ref={inputRef}
         />
         <button
           onClick={() => addFavourite()}
-          className="ml-3 glass border desc p-3 text-gray-300 border-gray-300 hover:bg-orange-400 hover:text-black"
+          className="ml-3 glass border desc p-3 text-gray-300 border-gray-300 hover:bg-[#c415c4] hover:text-black"
         >
           Add Tag
         </button>
       </div>
-      <h1 className="heading text-orange-300 mt-20 text-xl">
+      <h1 className="heading text-[#c415c4] mt-20 text-xl">
         Storage Preferences
       </h1>
       <br />
@@ -122,7 +122,7 @@ export default function Settings(props) {
             clearStorage();
           }
         }}
-        className="mt-10 glass border text-lg border-gray-300 desc p-3 text-gray-300 w-40 hover:bg-orange-400 hover:text-black"
+        className="mt-10 glass border text-lg border-gray-300 desc p-3 text-gray-300 w-40 hover:bg-[#c415c4] hover:text-black"
       >
         Clear storage
       </button>

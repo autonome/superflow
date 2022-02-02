@@ -311,7 +311,7 @@ export default function Home(props) {
             <div className="p-1 shadow-xl  rounded-2xl">
               <div className="block p-6 white-glassmorphism border sm:p-8 rounded-xl">
                 <div className="mt-7 sm:pr-8">
-                  <h5 className="text-xl font-bold heading text-orange-300">
+                  <h5 className="text-xl font-bold heading text-[#c415c4]">
                     {total}
                   </h5>
                   <p className="mt-2 text-sm desc text-gray-300">
@@ -326,7 +326,7 @@ export default function Home(props) {
             <div className="p-1 shadow-xl  rounded-2xl">
               <div className="block p-6 white-glassmorphism    border sm:p-8 rounded-xl">
                 <div className="mt-7 sm:pr-8">
-                  <h5 className="text-xl font-bold heading text-orange-300">
+                  <h5 className="text-xl font-bold heading text-[#c415c4]">
                     {answered.count}
                   </h5>
 
@@ -342,7 +342,7 @@ export default function Home(props) {
             <div className="p-1 shadow-xl  rounded-2xl">
               <div className="block p-6 white-glassmorphism    border sm:p-8 rounded-xl">
                 <div className="mt-7 sm:pr-8">
-                  <h5 className="text-xl font-bold heading text-orange-300">
+                  <h5 className="text-xl font-bold heading text-[#c415c4]">
                     {unanswered.count}
                   </h5>
 
@@ -358,7 +358,7 @@ export default function Home(props) {
             <div className="p-1 shadow-xl  rounded-2xl">
               <div className="block p-6 white-glassmorphism    border sm:p-8 rounded-xl">
                 <div className="mt-7 sm:pr-8" style={{ minWidth: 201 }}>
-                  <h5 className="text-xl font-bold heading text-orange-300">
+                  <h5 className="text-xl font-bold heading text-[#c415c4]">
                     {noAnswers.count}
                   </h5>
 
@@ -388,7 +388,7 @@ export default function Home(props) {
             </div>
           </div>
         </div>
-        <h1 className="heading text-orange-300 text-xl mt-5 mb-3">Facts</h1>
+        <h1 className="heading text-[#c415c4] text-xl mt-5 mb-3">Facts</h1>
 
         <div className="flex-col space-y-5 mt-3 mb-10">
           <div className="p-1 shadow-xl  rounded-2xl">
@@ -396,7 +396,7 @@ export default function Home(props) {
               <div className=" sm:pr-8">
                 <p className="mt-2 text-sm desc text-gray-300">
                   Out of all the questions,
-                  <span className="text-orange-300 mx-1">
+                  <span className="text-[#c415c4] mx-1">
                     {noAnswers.percentage} %
                   </span>
                   have no answers.
@@ -409,7 +409,7 @@ export default function Home(props) {
               <div className=" sm:pr-8">
                 <p className="mt-2 text-sm desc text-gray-300">
                   Out of all the questions,
-                  <span className="text-orange-300 mx-1">
+                  <span className="text-[#c415c4] mx-1">
                     {unanswered.percentage} %
                   </span>
                   have answers but none of them is accepted.
@@ -422,25 +422,21 @@ export default function Home(props) {
               <div className=" sm:pr-8">
                 <p className="mt-2 text-sm desc text-gray-300">
                   The total volume of questions for this tag is
-                  <span className="text-orange-300 ml-1">{total}</span> which
+                  <span className="text-[#c415c4] ml-1">{total}</span> which
                   makes this tag
                   {total < 100 && (
-                    <span className="text-orange-300 ml-1">less popular.</span>
+                    <span className="text-[#c415c4] ml-1">less popular.</span>
                   )}
                   {total >= 100 && total < 1000 && (
-                    <span className="text-orange-300 ml-1">
-                      mildly popular.
-                    </span>
+                    <span className="text-[#c415c4] ml-1">mildly popular.</span>
                   )}
                   {total >= 1000 && total < 5000 && (
-                    <span className="text-orange-300 ml-1">
+                    <span className="text-[#c415c4] ml-1">
                       moderately popular.
                     </span>
                   )}
                   {total >= 5000 && total < 10000 && (
-                    <span className="text-orange-300 ml-1">
-                      highly popular.
-                    </span>
+                    <span className="text-[#c415c4] ml-1">highly popular.</span>
                   )}
                   {total >= 10000 && (
                     <span className="text-orange-300 ml-1">

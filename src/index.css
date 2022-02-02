@@ -23,7 +23,7 @@
   background-image: 
     radial-gradient(at 0% 0%, rgb(24, 27, 35) 0, transparent 50%), 
     radial-gradient(at 40% 0%, rgba(236, 72, 154, 0.26) 0, transparent 40%), 
-    radial-gradient(at 130% 0%, rgba(212, 113, 0, 0.692) 0, transparent 50%);
+    radial-gradient(at 130% 0%, rgba(236, 72, 154, 0.26) 0, transparent 50%);
 }
 
 .gradient-bg-services {

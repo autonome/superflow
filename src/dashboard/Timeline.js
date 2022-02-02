@@ -438,7 +438,7 @@ export default function Timeline(props) {
             <Tab
               className={({ selected }) =>
                 selected
-                  ? "glass p-2 text-orange-300 border border-orange-300 desc"
+                  ? "glass p-2 text-[#c415c4] border border-[#c415c4] desc"
                   : "white-glassmorphism p-2 text-gray-300 desc"
               }
             >
@@ -447,7 +447,7 @@ export default function Timeline(props) {
             <Tab
               className={({ selected }) =>
                 selected
-                  ? "glass p-2 text-orange-300 border border-orange-300 desc"
+                  ? "glass p-2 text-[#c415c4] border border-[#c415c4] desc"
                   : "white-glassmorphism p-2 text-gray-300 desc"
               }
             >
@@ -456,7 +456,7 @@ export default function Timeline(props) {
             <Tab
               className={({ selected }) =>
                 selected
-                  ? "glass p-2 text-orange-300 border border-orange-300 desc"
+                  ? "glass p-2 text-[#c415c4] border border-[#c415c4] desc"
                   : "white-glassmorphism p-2 text-gray-300 desc"
               }
             >
@@ -558,7 +558,7 @@ export default function Timeline(props) {
                       </svg>
                     ) : (
                       <svg
-                        className="w-6 h-6 text-red-300"
+                        className="w-6 h-6 text-red-500"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -586,7 +586,7 @@ export default function Timeline(props) {
             <div className="p-1 shadow-xl  rounded-2xl">
               <div className="block p-6 white-glassmorphism    border sm:p-8 rounded-xl">
                 <div className="sm:pr-8">
-                  <h5 className="text-md font-bold heading text-orange-300">
+                  <h5 className="text-md font-bold heading text-[#c415c4]">
                     {createdAt ? new Date(createdAt).toDateString() : ""}
                   </h5>
 
@@ -602,7 +602,7 @@ export default function Timeline(props) {
             <div className="p-1 shadow-xl  rounded-2xl">
               <div className="block p-6 white-glassmorphism    border sm:p-8 rounded-xl">
                 <div className="sm:pr-8">
-                  <h5 className="text-md font-bold heading text-orange-300">
+                  <h5 className="text-md font-bold heading text-[#c415c4]">
                     {createdAt
                       ? (
                           new Date().getFullYear() -
@@ -623,7 +623,7 @@ export default function Timeline(props) {
     )
   ) : (
     <div className="desc text-gray-300 flex justify-center mt-60">
-    You have not added any tag yet
-  </div>
+      You have not added any tag yet
+    </div>
   );
 }
