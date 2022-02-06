@@ -20,7 +20,7 @@ export default function Landing() {
       <div className="flex justify-center">
         <a
           href="/dashboard"
-          className="bg-gradient-to-r from-orange-700 via-orange-500 to-yellow-500 rounded-lg p-3 mt-10 heading text-[#181B23]"
+          className="bg-gradient-to-r from-[#c415c4] to-pink-600  rounded-lg p-3 mt-10 heading text-[#181B23]"
         >
           Launch
         </a>

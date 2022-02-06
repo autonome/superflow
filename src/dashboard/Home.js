@@ -81,7 +81,7 @@ export default function Home(props) {
       return (
         <Pie
           data={{
-            labels: ["Answered", "Not-accepted", "Unanswered"],
+            labels: ["Answer accepted", "No accepted answer", "Unanswered"],
             datasets: [
               {
                 label: "Tag status",
@@ -183,7 +183,12 @@ export default function Home(props) {
         },
       };
 
-      const labels = ["Total", "Answered", "Not-accepted", "Unanswered"];
+      const labels = [
+        "Total",
+        "Answer accepted",
+        "No accepted answer",
+        "Unanswered",
+      ];
 
       const data = {
         labels,

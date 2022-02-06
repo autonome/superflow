@@ -257,13 +257,13 @@ export default function Timeline(props) {
         labels,
         datasets: [
           {
-            label: "Total",
+            label: "Monthly total",
             data: Object.values(total).reverse(),
             borderColor: "rgba(75, 192, 192, 0.5)",
             backgroundColor: "rgba(75, 192, 192, 0.5)",
           },
           {
-            label: "Not-accepted",
+            label: "No accepted answer",
             data: Object.values(unanswered).reverse(),
             borderColor: "rgba(255, 206, 86, 0.5)",
             backgroundColor: "rgba(255, 206, 86, 0.5)",
@@ -339,14 +339,14 @@ export default function Timeline(props) {
         labels,
         datasets: [
           {
-            label: "Total",
+            label: "Monthly total",
             data: Object.values(total).reverse(),
             backgroundColor: ["rgba(75, 192, 192, 0.3)"],
             borderColor: ["rgba(75, 192, 192, 1)"],
             borderWidth: 1,
           },
           {
-            label: "Not-accepted",
+            label: "No accepted answer",
             data: Object.values(unanswered).reverse(),
             backgroundColor: ["rgba(255, 206, 86, 0.3)"],
             borderColor: ["rgba(255, 206, 86, 1)"],

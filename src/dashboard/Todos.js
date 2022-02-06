@@ -86,7 +86,7 @@ export default function Todos(props) {
         className="mt-3 mb-4 p-2 heading text-white rounded-lg glass border border-gray-300 shadow-lg"
         defaultValue={type}
       >
-        <option value="unanswered">Not accepted</option>
+        <option value="unanswered">No accepted answer</option>
         <option value="no-answers">Unanswered</option>
       </select>
       <select
