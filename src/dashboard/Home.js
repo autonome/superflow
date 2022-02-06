@@ -352,7 +352,7 @@ export default function Home(props) {
                   </h5>
 
                   <p className="mt-2 text-sm desc text-gray-300">
-                    Answer not accepted
+                    No accepted answer
                   </p>
                 </div>
               </div>
