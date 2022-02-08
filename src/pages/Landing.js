@@ -19,7 +19,7 @@ export default function Landing() {
       </h1>
       <div className="flex justify-center">
         <a
-          href="superflow/#/dashboard"
+          href="#/dashboard"
           className="bg-gradient-to-r from-[#c415c4] to-pink-600  rounded-lg p-3 mt-10 heading text-[#181B23]"
         >
           Launch
