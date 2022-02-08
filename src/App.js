@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import Landing from "./pages/Landing";
 import Header from "./components/Header";
@@ -10,13 +10,13 @@ const App = () => {
   return (
     <div>
       <div className="gradient-bg-welcome w-full min-h-screen">
-        <BrowserRouter>
+        <HashRouter>
           {/* <Header /> */}
           <Routes>
             <Route exact path="/" element={<Landing />} />
             <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     </div>
   );
