@@ -1,7 +1,6 @@
 {
   "name": "superflow",
   "version": "0.1.0",
-  "homepage": "https://autonome.github.io/superflow",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.4.3",
